@@ -1,0 +1,8 @@
+compiler:
+ solc:
+  remappings:
+    - '@openzeppelin=/Users/stoly/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.7.0/contracts'
+#dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
+  
